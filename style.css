@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
-
+/*font-family: 'Nixie One', cursive;*/
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +25,7 @@ body {
 
 }
 .relogio div{
+    
     height: 170px;
     width: 150px;
     display: flex;
@@ -38,8 +39,13 @@ body {
     letter-spacing: 3px;
 }
 .relogio span{
+    
     font-weight: bolder;
-    font-size: 60px;
+    text-shadow: 0px 0px 8px rgb(255, 1, 1);  
+	color: rgba(236,165,0,1);
+	font-size: 80px;
+
+    
 }
 .relogio span.tempo{
     font-size: 10px;

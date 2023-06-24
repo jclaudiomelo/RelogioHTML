@@ -21,7 +21,7 @@ body {
     width: 550px;
     background: transparent;
     border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0,0,0,5);
+    
 
 }
 .relogio div{
@@ -38,6 +38,7 @@ body {
     border-radius: 7px;
     letter-spacing: 3px;
 }
+
 .relogio span{
     
     font-weight: bolder;
@@ -49,4 +50,62 @@ body {
 }
 .relogio span.tempo{
     font-size: 10px;
+}
+
+
+/* footer*/
+
+footer{
+    justify-content: center;
+    display: flex;
+    
+}
+
+#footer-social{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    
+    
+   
+}
+#footer-social a{
+    text-decoration: none;
+}
+.footer_git{
+    border-color: rgb(158, 57, 57);
+    justify-content: center;
+    font-size: 4rem;
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 6rem;
+    height: 6rem;
+    color: rgb(225, 231, 225);  
+}
+.footer_link{
+    border-color: rgb(158, 57, 57);
+    justify-content: center;
+    font-size: 4rem;
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 6rem;
+    height: 6rem;
+    color: rgb(225, 231, 225);
+    
+}
+
+.footer_link:hover{
+    transform: scale(1.2);
+   
+}
+.footer_git:hover{
+    transform: scale(1.2);
+    
 }

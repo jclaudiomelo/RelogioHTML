@@ -10,7 +10,7 @@
 body {
     height: 100vh;
     background-image: url("https://img.freepik.com/vetores-gratis/onda-de-particula-3d-azul-em-um-fundo-azul-escuro_53876-113900.jpg?w=1380&t=st=1687882957~exp=1687883557~hmac=26ad4af64f898a47982867c6a91f73ba3a8e9fd38c056d0af497b58e427426ab");
-    ackground: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    /*background: linear-gradient(120deg, #ffe53bd8, #ff2525da);*/
     display: flex;
     align-items: center;
     justify-content: center;

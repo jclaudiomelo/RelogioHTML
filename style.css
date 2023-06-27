@@ -76,6 +76,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     margin: 10% 10% 0;
+    
 }
 
 .footer_git {
@@ -83,8 +84,8 @@ footer {
     margin-right: 20%;
     margin-bottom: 20%;
     margin-top: 20%;
-    color: red;
-    border-color: green;
+    
+    
 }
 
 .footer_link {
@@ -96,11 +97,16 @@ footer {
 
 .footer_link:hover {
     transform: scale(1.2);
+    filter: drop-shadow(0 0 20px #ffff);
+    fill: white;
 
 }
 
 .footer_git:hover {
     transform: scale(1.2);
+    filter: drop-shadow(0 0 20px hsl(0, 0%, 99%));
+    fill: rgb(255, 255, 255);
+  
 
 }
 

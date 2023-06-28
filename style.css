@@ -68,6 +68,8 @@ footer {
 .footer-social a {
     text-decoration: none;
     background: none;
+    
+    
 
 }
 
@@ -80,34 +82,44 @@ footer {
 }
 
 .footer_git {
+    border-radius: 99%;
     font-size: 50px;
     margin-right: 20%;
     margin-bottom: 20%;
-    margin-top: 20%;
+    margin-top: 60%;
+    opacity:0.5;
     
     
 }
 
 .footer_link {
+    border-radius: 23%;
     font-size: 50px;
     margin-left: 20%;
     margin-bottom: 20%;
-    margin-top: 20%;
+    margin-top: 60%;
+    opacity:0.5;
+    
+   
 }
 
 .footer_link:hover {
     transform: scale(1.2);
-    filter: drop-shadow(0 0 20px #ffff);
+    filter: drop-shadow(0 0 12px #ffff);
     fill: white;
+    opacity:1;
+    
 
 }
 
 .footer_git:hover {
     transform: scale(1.2);
-    filter: drop-shadow(0 0 20px hsl(0, 0%, 99%));
-    fill: rgb(255, 255, 255);
-  
-
+    filter: drop-shadow(0 0 12px #ffff);
+    fill: white;
+    opacity:1;
+    
+    
+    
 }
 
 @media (max-width: 600px) {
